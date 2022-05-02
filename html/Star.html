@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Practica 2 Tienda Virtual 		
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"> 
+   <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js"></script>
+    <link rel="shortcut icon" href="icon.png">
+</head>
+<link rel="shortcut icon" href="icon.png">
+<body>
+
+    <div class="page-nav">
+           <font color="white"><h1>Collectors<font color="orange">Store</h1> </font></font>
+
+           <img class="Car" src="carrito.png">
+          
+           <div id="Carrito"></div>
+           <table id="List-Carrito"></table>
+
+
+    <button id="checkout" class="button-checkout" onclick="pay()">Ver Carro</button>
+    <button id="checkout" class="Ingresar" onclick="red()">Ingresar</button>
+    <div class="row">
+        <div class="four columns">
+            <ul class="navct">
+                <a href="Star.html">Star Wars</a></li>
+                <a href="halo.html">Halo</a></li>
+                <a href="Marvel.html">Marvel</a></li>
+                <a href="dc.html">DC Comics</a></li>
+                <a href="legos.html">LEGOS</a></li>
+                        </ul>
+                    </div>
+                </div>
+     
+     
+
+
+      </div>
+
+    <div class="Destacados"> 
+<h1>Destacados</h1>
+</div>  
+
+    <div class="page-content">
+       
+   
+
+    <div class="product-container">
+        <h3>El Mandaloriano</h3>
+        <img src="Mando.jpg"  />
+        <h3>$350</h3>
+        <p>Figura Vintage Collection </p>
+        <p>Tamaño 3.75 inch</p>
+       <button class="button-add" onclick="add('Mando', 350)">Añadir</button>
+    </div>
+
+
+    <div class="product-container">
+        <h3>Cara Dune</h3>
+        <img src="CaraDune.jpg"  />
+        <h3>$500</h3>
+        <p>Figura Vintage Collection </p>
+        <p>Tamaño 3.75 inch</p>
+           <button class="button-add" onclick="add('Cara', 500)">Añadir</button>
+    </div>
+
+
+    <div class="product-container">
+        <h3>Mando y Grogu</h3>
+        <img src="Manda.webp"  />
+        <h3>$599</h3>
+        <p>Figura Vintage Collection </p>
+        <p>Tamaño 3.75 inch</p>
+       <button class="button-add" onclick="add('Mando+Grogu', 599)">Añadir</button>
+    </div>
+
+
+    <div class="product-container">
+        <h3>Halo Jazwares Warthog </h3>
+        <img src="Halo.webp"  />
+        <h3>$1200</h3>
+        <p>Set Warthoh Halo 3</p>
+        <p>Contenido 6 pzas</p>
+       <button class="button-add" onclick="add('Warthog', 1200)">Añadir</button>
+    </div>
+
+    <div class="product-container">
+        <h3>Brute y Jefe Halo Jazwares</h3>
+        <img src="Chief.png"  />
+        <h3>$500</h3>
+        <p>Paquete doble Halo</p>
+        <p>Tamaño 4 inch</p>
+       <button class="button-add" onclick="add('Brute+Jefe', 500)">Añadir</button>
+    </div>
+
+    <div class="product-container">
+        <h3>Halo Jazwares Master Chief S4</h3>
+        <img src="Jefe.jpg"  />
+        <h3>$400</h3>
+        <p>Figura JAZWARES Halo</p>
+        <p>Tamaño 34 inch</p>
+       <button class="button-add" onclick="add('Chief S4', 400)">Añadir</button>
+    </div>
+
+    <div class="product-container">
+        <h3>Lego Set F.R.I.E.N.D.S</h3>
+        <img src="fren.webp"  />
+        <h3>$7,000</h3>
+        <p>Set de 780 piezas</p>
+        <p>Serie de FRIENDS</p>
+       <button class="button-add" onclick="add('LEGO friends', 7000)">Añadir</button>
+    </div>
+
+    <div class="product-container">
+        <h3>Batman the Brave McFarlane</h3>
+        <img src="bat.webp"  />
+        <h3>$579</h3>
+        <p>Figura McFarlane DComics</p>
+        <p>Tamaño 7 inch</p>
+       <button class="button-add" onclick="add('Batman', 579)">Añadir</button>
+    </div>
+
+    <div class="product-container">
+        <h3>The Batman McFarlane</h3>
+        <img src="The batman.jpg"  />
+        <h3>$700</h3>
+        <p>Figura McFarlane DComics</p>
+        <p>Tamaño 7 inch</p>
+       <button class="button-add" onclick="add('The Batman', 700)">Añadir</button>
+    </div>
+
+    <div class="product-container">
+        <h3>Capitana Phasma</h3>
+        <img src="fas.webp"  />
+        <h3>$120</h3>
+        <p>Figura Vintage Collection </p>
+        <p>Tamaño 3.75 inch</p>
+       <button class="button-add" onclick="add('Mando', 350)">Añadir</button>
+    </div>
+
+    <div class="product-container">
+        <h3>Fortnite Figura</h3>
+        <img src="fort.jpg"  />
+        <h3>$490</h3>
+        <p>Figura Jazwares Fortnite</p>
+        <p>Tamaño 4 inch</p>
+       <button class="button-add" onclick="add('Mando', 350)">Añadir</button>
+    </div>
+
+</div>
+
+   <footer id="footer" class="footer"> 
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav id="principal" class="menu">
+                        <a class="enlace" href="#">Conocenos</a>
+                        <a class="enlace" href="#">Enrique Iván García Castañeda</a>
+                        <a class="enlace" href="#">Zayra Ponce Becerril</a>
+                        <a class="enlace" href="#">Pongame 10 profe</a>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    </div>
+
+     </body>
+</html>
